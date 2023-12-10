@@ -1,0 +1,38 @@
+.main{
+    background-color: mediumpurple;
+    border: 5px solid maroon;
+   padding: 25px;
+   margin: 10px;
+   border-radius: 20px;
+   width: 800px;
+
+}
+.sub{
+    background-color: #ffff;
+    border: 3px outset burlywood;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.btnsub{
+    background-color: lightblue;
+    border: 4px solid violet ;
+    margin: 10px;
+    height: 50px;
+    /* align-items: center;
+    justify-content: start; */
+    /* display: flex;     */
+}
+button{
+    /* width: 110px; */
+    /* height: 30px; */
+    background-color:crimson;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    margin-left: 60px;
+    box-shadow: 4px 4px b;
+}
+img{
+    width: 400px;
+}

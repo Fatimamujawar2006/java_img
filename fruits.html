@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits</title>
+    <link rel="stylesheet" href="common.css">
+    <script>
+        function setImg(name){
+            const url="images/"+ name + ".jpg"
+            const elem=document.getElementById("fruits");
+            elem.src=url;
+        }
+    </script>
+</head>
+<body>
+    <div class="main">
+        <div class="sub">
+            <img id="fruits" src="images/fruit-2.jpg" alt="">
+        </div>
+        <div class="btnsub">
+            <button onclick="setImg('fruit-2')">fruit 1</button>
+            <button onclick="setImg('fruit-3 (4)')">fruit 2</button>
+            <button onclick="setImg('fruit-5 (1)')">fruit 3</button>
+            <button onclick="setImg('fruit-6 (1)')">fruit 4</button>
+        </div>
+    </div>
+</body>
+</html>

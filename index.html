@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Images</title>
+    <link rel="stylesheet" href="common.css">
+    <script>
+        function setBrid(name){
+            const url="image/"+name+".jpg";
+            const elem=document.getElementById("bridname");
+            elem.src=url;
+        }
+    </script>
+</head>
+<body>
+    <div class="main">
+        <div class="sub">
+            <img id="bridname" src="image/Bird-01-1.jfif (6).jpg" alt=""> <!--it is does not have content element,inline element,void element+self closeing element-->
+        </div>
+        <div class="btnsub">
+            <button onclick="setBrid('Bird-01-1.jfif (6)')">Brid 1</button>
+        <button onclick="setBrid('Bird-02.jfif (3)')">Brid 2</button>
+        <button onclick="setBrid('Bird-03.jfif (3)')">Brid 3</button>
+        <button onclick="setBrid('Bird-04-2.jfif (2)')">Brid 4</button>
+        </div>
+        
+    </div>
+</body>
+</html>
